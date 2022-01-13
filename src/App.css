@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #926b6a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.speek {
+  font-size: 20px;
+  padding:8px 16px;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  border: 2px solid #af6d5c;
+}
+
+.speek:hover {
+  background-color: #af6d5c;
+
+  color: white;
 }
